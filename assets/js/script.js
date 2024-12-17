@@ -5,3 +5,9 @@ var video_popup_unprm_general_settings = {
     'unprm_r_border': 'true'
 };
 
+ var sc_project = 12874782;
+ var sc_security = "b04abb14";
+ var scJsHost = (("https:" == document.location.protocol) ?
+     "https://secure." : "http://www.");
+
+ document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");		
