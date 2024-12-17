@@ -5,9 +5,22 @@ var video_popup_unprm_general_settings = {
     'unprm_r_border': 'true'
 };
 
- var sc_project = 12874782;
- var sc_security = "b04abb14";
- var scJsHost = (("https:" == document.location.protocol) ?
-     "https://secure." : "http://www.");
+var sc_project = 12874782;
+var sc_security = "b04abb14";
+var scJsHost = (("https:" == document.location.protocol) ?
+    "https://secure." : "http://www.");
 
- document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");		
+document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");		
+
+/* <![CDATA[ */
+var wpcf7 = { "api": { "root": "https:\/\/whyi.co\/wp-json\/", "namespace": "contact-form-7\/v1" } };
+/* ]]> */
+
+/* <![CDATA[ */
+var ClapatPegasusThemeOptions = { "enable_preloader": "0" };
+var ClapatMapOptions = { "map_marker_image": "http:\/\/clapat.ro\/themes\/pegasus-wordpress\/wp-content\/themes\/pegasus\/images\/marker.png", "map_address": "43.270441,6.640888", "map_zoom": "16", "marker_title": "Hello Friend!", "marker_text": "Here we are. Come to drink a coffee!", "map_type": "0", "map_api_key": "" };
+/* ]]> */
+
+/* <![CDATA[ */
+var tss = { "ajaxurl": "https:\/\/whyi.co\/wp-admin\/admin-ajax.php", "nonce": "db0b9478d0", "nonceId": "tss_nonce" };
+/* ]]> */

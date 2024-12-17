@@ -749,3 +749,10 @@ nav > ul > li > a, .showcase-wrapper li,
     opacity: 1; 
 }
 
+#tss-container-417824497.tss-wrapper .tss-layout10 .item-content-wrapper,
+#tss-container-417824497.tss-wrapper .tss-isotope3 .item-content-wrapper,
+#tss-container-417824497.tss-wrapper .tss-isotope5 .item-content-wrapper,
+#tss-container-417824497.tss-wrapper .tss-carousel10 .item-content-wrapper {
+    background: transparent;
+}
+
