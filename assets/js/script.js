@@ -24,3 +24,4 @@ var ClapatMapOptions = { "map_marker_image": "http:\/\/clapat.ro\/themes\/pegasu
 /* <![CDATA[ */
 var tss = { "ajaxurl": "https:\/\/whyi.co\/wp-admin\/admin-ajax.php", "nonce": "db0b9478d0", "nonceId": "tss_nonce" };
 /* ]]> */
+

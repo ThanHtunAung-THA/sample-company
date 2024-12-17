@@ -43,21 +43,7 @@ function alertClick3 () {
 
 }
 
-function alertClick4 () {
-    Swal.fire({
-        icon: "error",
-        draggable: true,
-        html: 
-        `
-          
-        `,
-        showCloseButton: true,
-        focusConfirm: true,
-        
-      });
-}
-
-function alertClick5() {
+function alertClick_main () {
     fetch('underCons/index.html')
         .then(response => {
             if (!response.ok) {
@@ -79,7 +65,38 @@ function alertClick5() {
             Swal.fire({
                 icon: "error",
                 title: "Error",
-                text: "Failed to load content.",
+                text: "Failed to load content. Pages are currently under construction.",
+                customClass: {
+                    icon: 'small-icon' // Custom class for the icon
+                },
+
+            });
+        });
+}
+
+function alertClick_pages() {
+    fetch('../underCons/indexforpages.html')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text();
+        })
+        .then(data => {
+            Swal.fire({
+                // draggable: true,
+                html: data, // Insert the fetched HTML content here
+                showCloseButton: true,
+                
+
+            });
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error);
+            Swal.fire({
+                icon: "error",
+                title: "Error",
+                text: "Failed to load content. Pages are currently under construction.",
                 customClass: {
                     icon: 'small-icon' // Custom class for the icon
                 },
